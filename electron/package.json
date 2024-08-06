@@ -1,0 +1,19 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "wechat for electron",
+  "main": "/main/main.js",
+  "scripts": {
+    "dev": "npm run build&&export NDOE_ENV=development&&electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "dev:fe": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "zhenzhong",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
