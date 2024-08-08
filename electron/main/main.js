@@ -7,7 +7,7 @@ const createWindow = () => {
     width: 800,
     height: 600,
     icon: path.join(__dirname, "../../assets/win32.ico"),
-    frame: false,
+    titleBarStyle: "hiddenInset",
     webPreferences: {
       preload: path.join(__dirname, "../preload/preload.js"),
       webSecurity: true,
